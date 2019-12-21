@@ -126,3 +126,13 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.container-home .home-header {
+  text-align: center;
+}
+.container-home .home-header img {
+  width: 50%;
+  margin: 0 25%;
+}
+.container-home .home-header h1 {
+  margin: 50px 20%;
+}
