@@ -127,12 +127,28 @@ table {
   border-spacing: 0;
 }
 .container-home .home-header {
+  position: relative;
   text-align: center;
 }
 .container-home .home-header img {
-  width: 50%;
-  margin: 0 25%;
+  width: 60%;
+  margin: 0 auto;
 }
 .container-home .home-header h1 {
-  margin: 50px 20%;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  font-size: 4rem;
+}
+.container-home .home-header h2 {
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  margin: 10px 0;
+  font-size: 1.2rem;
+}
+.container-home .home-header button {
+  position: absolute;
+  top: 50%;
+  left: 40%;
 }
