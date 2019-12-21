@@ -126,6 +126,23 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+.nav-items {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 0px;
+  margin: auto;
+  padding-bottom: 25px;
+  color: gray;
+  background: black;
+  padding: 20px 0;
+  width: 60%;
+}
+.nav-items a {
+  text-decoration: none;
+  font-size: 1rem;
+  margin: 0 10px;
+  color: white;
+}
 .container-home .home-header {
   position: relative;
   text-align: center;
@@ -150,5 +167,15 @@ table {
 .container-home .home-header button {
   position: absolute;
   top: 50%;
-  left: 40%;
+  left: 35%;
+  width: 100px;
+  height: 35px;
+  padding: 0;
+  background-color: #800000;
+  border: 0;
+  border-radius: 5px;
+}
+.container-home .home-header button p {
+  font-size: 1.1rem;
+  color: white;
 }
