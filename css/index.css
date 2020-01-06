@@ -208,3 +208,15 @@ table {
 .container-home .home-header button p:hover {
   color: #6699CC;
 }
+.container-about .about-header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container-about .about-header h1 {
+  margin: 20px 40%;
+  font-size: 4rem;
+}
+.container-about .about-header img {
+  width: 300px;
+}
