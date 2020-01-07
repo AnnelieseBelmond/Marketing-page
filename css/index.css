@@ -212,11 +212,53 @@ table {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  margin: 0 20%;
 }
 .container-about .about-header h1 {
-  margin: 20px 40%;
+  margin: 20px 30%;
+  margin-bottom: 30px;
   font-size: 4rem;
 }
 .container-about .about-header img {
-  width: 300px;
+  width: 250px;
+  margin: 0 20px;
+  border-radius: 5px;
+}
+.container-about .about-header h2 {
+  font-size: 1.5rem;
+  margin: 10px 20px;
+}
+.container-about .about-header p {
+  margin: 0 20px;
+}
+.container-about .about-header .my-community {
+  width: 250px;
+  margin: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container-about .about-header .my-education {
+  width: 250px;
+  margin: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container-about .about-header .my-creativity {
+  width: 250px;
+  margin: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.container-about .the-team {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 0 20%;
+}
+.container-about .the-team h1 {
+  margin: 30px 26%;
+  font-size: 4rem;
 }
