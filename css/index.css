@@ -267,3 +267,11 @@ table {
   margin: 0 31%;
   margin-bottom: 10px;
 }
+.container-about .the-team {
+  display: flex;
+  flex-flow: wrap;
+}
+.container-about .the-team img {
+  width: 200px;
+  border-radius: 10px;
+}
