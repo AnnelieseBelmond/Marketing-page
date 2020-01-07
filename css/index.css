@@ -212,7 +212,11 @@ table {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin: 0 20%;
+  margin: 0 auto;
+  width: 60%;
+}
+.container-about .about-header button {
+  margin: 30px 45%;
 }
 .container-about .about-header h1 {
   margin: 20px 30%;
@@ -230,6 +234,7 @@ table {
 }
 .container-about .about-header p {
   margin: 0 20px;
+  margin-bottom: 10px;
 }
 .container-about .about-header .my-community {
   width: 250px;
@@ -256,7 +261,8 @@ table {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  margin: 0 20%;
+  width: 60%;
+  margin: 0 auto;
 }
 .container-about .the-team-header h1 {
   margin: 30px 26%;
@@ -270,8 +276,31 @@ table {
 .container-about .the-team {
   display: flex;
   flex-flow: wrap;
+  align-items: center;
+  width: 60%;
 }
 .container-about .the-team img {
   width: 200px;
   border-radius: 10px;
+}
+.container-about .the-team .team-lead {
+  margin: 10px;
+}
+.container-about .the-team .react-1 {
+  margin: 10px;
+}
+.container-about .the-team .react-1-1 {
+  margin: 10px;
+}
+.container-about .the-team .react-2 {
+  margin: 10px;
+}
+.container-about .the-team .ui-1 {
+  margin: 10px;
+}
+.container-about .the-team .ui-1-1 {
+  margin: 10px;
+}
+.container-about .the-team .backend-developer {
+  margin: 10px;
 }
