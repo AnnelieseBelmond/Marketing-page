@@ -217,6 +217,17 @@ table {
 }
 .container-about .about-header button {
   margin: 30px 45%;
+  background-color: black;
+  color: white;
+  height: 35px;
+  padding: 0;
+  border: 0;
+  border-radius: 5px;
+  font-size: 1rem;
+  width: 200px;
+}
+.container-about .about-header button:hover {
+  color: #6699CC;
 }
 .container-about .about-header h1 {
   margin: 20px 30%;
@@ -277,14 +288,17 @@ table {
   display: flex;
   flex-flow: wrap;
   align-items: center;
-  width: 60%;
 }
 .container-about .the-team img {
   width: 200px;
   border-radius: 10px;
 }
+.container-about .the-team h3 {
+  font-size: 1.25rem;
+}
 .container-about .the-team .team-lead {
   margin: 10px;
+  margin-left: 20%;
 }
 .container-about .the-team .react-1 {
   margin: 10px;
@@ -297,10 +311,27 @@ table {
 }
 .container-about .the-team .ui-1 {
   margin: 10px;
+  margin-left: 20%;
 }
 .container-about .the-team .ui-1-1 {
   margin: 10px;
 }
 .container-about .the-team .backend-developer {
   margin: 10px;
+}
+.container-about .the-team button {
+  margin: 10px 0;
+  background-color: black;
+  padding: 0;
+  border: 0;
+  width: 75px;
+  height: 30px;
+  border-radius: 5px;
+}
+.container-about .the-team button a {
+  text-decoration: none;
+  color: white;
+}
+.container-about .the-team button a:hover {
+  color: #6699CC;
 }
