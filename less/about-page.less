@@ -1,10 +1,6 @@
 .container-about{
     .about-header{
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        margin: 0 auto;
-        width: 60%;
+        .headers(flex, wrap, center);
         button{
             margin: 30px 45%;
             background-color: black;
@@ -38,33 +34,17 @@
             margin-bottom: 10px;
         }
         .my-community{
-            width: 250px;
-            margin: 0 20px;
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
+            .value(wrap,center)
         }
         .my-education{
-            width: 250px;
-            margin: 0 20px;
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
+            .value(wrap,center)
         }
         .my-creativity{
-            width: 250px;
-            margin: 0 20px;
-            display: flex;
-            flex-wrap: wrap;
-            align-items: center;
+            .value(wrap,center)
         }
     }
     .the-team-header{
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        width: 60%;
-        margin: 0 auto;
+        .headers(flex, wrap, center);
         h1{
             margin: 30px 26%;
             font-size: 4rem;

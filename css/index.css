@@ -272,8 +272,8 @@ table {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
-  width: 60%;
   margin: 0 auto;
+  width: 60%;
 }
 .container-about .the-team-header h1 {
   margin: 30px 26%;
