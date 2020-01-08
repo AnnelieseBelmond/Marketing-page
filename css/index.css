@@ -284,6 +284,10 @@ table {
   margin: 0 31%;
   margin-bottom: 10px;
 }
+.container-about hr {
+  border-top: 2px dashed #6699CC;
+  width: 60%;
+}
 .container-about .the-team {
   display: flex;
   flex-flow: wrap;
