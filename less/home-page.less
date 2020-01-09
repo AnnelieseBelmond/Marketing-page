@@ -1,0 +1,57 @@
+.container-home{
+    .home-header{
+        position: relative;
+        text-align: center;
+        img{
+            width: 60%;
+            margin: 3px 0 auto;
+            @media @mobile{
+                width: 80%;
+            }
+        }
+        h1{
+            position: absolute;
+            top: 20%;
+            left: 30%;
+            @media @mobile{
+                font-size: 3rem;
+                left: 25%;
+            }
+        }
+        h2{
+            position: absolute;
+            top: 25%;
+            left: 30%;
+            margin: 10px 0;
+            font-size: 1.2rem;
+            @media @mobile{
+                margin: 20px 0;
+                left: 28%;
+            }
+        }
+        button{
+            position: absolute;
+            top: 50%;
+            left: 35%;
+            width: 100px;
+            height: 35px;
+            padding: 0;
+            background-color: @button-red;
+            border: 0;
+            border-radius: 5px;
+            @media @mobile{
+                left: 40%;
+            }
+            &:hover {
+                background-color: @black;
+              }
+            p{
+                font-size: 1.1rem;
+                color: @white;
+                &:hover {
+                    color: @font-blue;
+                }
+            }
+        }
+    }
+}
