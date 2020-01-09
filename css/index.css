@@ -257,7 +257,7 @@ img {
   width: 60%;
 }
 .container-about .about-header button {
-  margin: 30px 45%;
+  margin: 30px 42%;
   background-color: black;
   color: white;
   height: 35px;
@@ -267,6 +267,11 @@ img {
   font-size: 1rem;
   width: 200px;
 }
+@media (max-width: 500px) {
+  .container-about .about-header button {
+    margin: 20px 20%;
+  }
+}
 .container-about .about-header button:hover {
   color: #6699CC;
 }
@@ -275,18 +280,40 @@ img {
   margin-bottom: 30px;
   font-size: 4rem;
 }
+@media (max-width: 500px) {
+  .container-about .about-header h1 {
+    margin: 20px 10%;
+    font-size: 3rem;
+  }
+}
 .container-about .about-header img {
   width: 250px;
   margin: 0 20px;
   border-radius: 5px;
 }
+@media (max-width: 500px) {
+  .container-about .about-header img {
+    margin: 0 1%;
+  }
+}
 .container-about .about-header h2 {
   font-size: 1.5rem;
   margin: 10px 20px;
 }
+@media (max-width: 500px) {
+  .container-about .about-header h2 {
+    margin: 10px 1%;
+  }
+}
 .container-about .about-header p {
   margin: 0 20px;
   margin-bottom: 10px;
+}
+@media (max-width: 500px) {
+  .container-about .about-header p {
+    margin: 0 1%;
+    margin-bottom: 20px;
+  }
 }
 .container-about .about-header .my-community {
   width: 250px;
@@ -320,10 +347,21 @@ img {
   margin: 30px 26%;
   font-size: 4rem;
 }
+@media (max-width: 500px) {
+  .container-about .the-team-header h1 {
+    font-size: 2.5rem;
+    margin: 30px 3%;
+  }
+}
 .container-about .the-team-header p {
   font-size: 1.5rem;
   margin: 0 31%;
   margin-bottom: 10px;
+}
+@media (max-width: 500px) {
+  .container-about .the-team-header p {
+    display: none;
+  }
 }
 .container-about hr {
   border-top: 2px dashed #6699CC;
@@ -338,18 +376,38 @@ img {
   width: 200px;
   border-radius: 10px;
 }
+@media (max-width: 500px) {
+  .container-about .the-team img {
+    width: 150px;
+  }
+}
 .container-about .the-team h3 {
   font-size: 1.25rem;
+}
+@media (max-width: 500px) {
+  .container-about .the-team h3 {
+    font-size: 1rem;
+  }
 }
 .container-about .the-team .team-lead {
   margin: 10px;
   margin-left: 20%;
+}
+@media (max-width: 500px) {
+  .container-about .the-team .team-lead {
+    margin-left: 17%;
+  }
 }
 .container-about .the-team .react-1 {
   margin: 10px;
 }
 .container-about .the-team .react-1-1 {
   margin: 10px;
+}
+@media (max-width: 500px) {
+  .container-about .the-team .react-1-1 {
+    margin-left: 17%;
+  }
 }
 .container-about .the-team .react-2 {
   margin: 10px;
@@ -358,11 +416,21 @@ img {
   margin: 10px;
   margin-left: 20%;
 }
+@media (max-width: 500px) {
+  .container-about .the-team .ui-1 {
+    margin-left: 17%;
+  }
+}
 .container-about .the-team .ui-1-1 {
   margin: 10px;
 }
 .container-about .the-team .backend-developer {
   margin: 10px;
+}
+@media (max-width: 500px) {
+  .container-about .the-team .backend-developer {
+    margin-left: 34%;
+  }
 }
 .container-about .the-team button {
   margin: 10px 0;
